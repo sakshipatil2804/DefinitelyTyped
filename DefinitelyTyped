@@ -1,0 +1,15 @@
+To use DefinitelyTyped, you can simply install the type definitions for the libraries you want to use. For example, to use the React library, you would install the following package:
+
+npm install @types/react
+
+Once you have installed the type definitions, you can use them in your TypeScript code. For example, the following code uses the React type definitions to create a React component:
+
+import React from 'react';
+
+const App = () => {
+  return (
+    <div>Hello, world!</div>
+  );
+};
+
+export default App;
